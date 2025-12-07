@@ -89,6 +89,3 @@ Workflow dapat dikembangkan lebih jauh dengan:
 3. Jalankan node satu per satu atau klik **Execute All**
 4. Buka view pada node visualisasi untuk melihat grafik
 
-
-Silakan langsung **copy paste ke README.md** 🚀
-Kalau kamu mau ditambah gambar workflow, badge GitHub, atau bagian tambahan lain tinggal bilang ya 😄
