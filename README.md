@@ -1,91 +1,94 @@
-# 📊 Analisis Data Cereal Dataset Menggunakan KNIME
+# 📊 Laporan Analisis dan Pengolahan Data Cereal Menggunakan KNIME
 
-Repository ini berisi workflow KNIME untuk melakukan proses **Data Preparation**, **Data Processing**, dan **Visualisasi Data** pada dataset *Cereals.csv*.  
-Tujuan utama project ini adalah mempraktikkan tahapan analisis data mulai dari membaca dataset, pembersihan data, transformasi, hingga visualisasi insight menggunakan KNIME.
+## BAB I  
+### 1.1 Latar Belakang  
+Analisis data diperlukan untuk memahami karakteristik nutrisi pada berbagai jenis sereal. Dengan memanfaatkan KNIME, proses data preparation, data cleaning, dan visualisasi dapat dilakukan lebih sistematis. Proyek ini bertujuan melakukan pengolahan data menggunakan node-node KNIME serta menghasilkan insight berupa hubungan nutrisi antar produk sereal.
 
----
-
-## 🗂 Dataset
-Dataset yang digunakan: **Cereals.csv**  
-Berisi informasi mengenai berbagai jenis sereal beserta nilai gizi seperti Kalori, Protein, Lemak, Gula, Sodium, dan lainnya.
-
----
-
-## 🔧 Tools yang digunakan
-- **KNIME Analytics Platform** versi 5.8.0
-- Node–node untuk data cleaning, preparation, statistical analysis & visualization
+### 1.2 Tujuan  
+1. Melakukan preprocessing dataset sereal.  
+2. Menganalisis pola dan hubungan antar fitur nutrisi.  
+3. Menghasilkan visualisasi sebagai bentuk interpretasi data.  
 
 ---
 
-## 🏗 Workflow KNIME
+## BAB II – Metodologi
 
-Tahapan node yang digunakan (15+ node):
-
-| No | Node | Fungsi |
-|---|-------------------------|--------------------------------------------|
-|1| CSV Reader | Membaca dataset |
-|2| Column Auto Type Cast | Menyesuaikan tipe data otomatis |
-|3| Column Filter | Memilih / buang kolom tertentu |
-|4| Missing Value | Menangani data kosong (mean/median/mode) |
-|5| Row Filter | Menyaring baris sesuai kriteria |
-|6| Normalizer | Menormalkan nilai numerik |
-|7| Column Rename | Merapikan nama kolom |
-|8| Duplicate Row Filter | Menghapus data duplikat |
-|9| Linear Correlation | Melihat korelasi antar fitur |
-|10| GroupBy | Menghitung statistik agregat |
-|11| Bar Chart | Visualisasi distribusi sereal |
-|12| Pie Chart | Visualisasi proporsi kategori |
-|13| Scatter Plot | Analisis hubungan antar variabel |
-|14| Histogram | Distribusi fitur numerik |
-|15| Data to Report / Export | Menyimpan hasil untuk laporan |
+### 2.1 Data dan Tools  
+- Dataset : `Cereals.csv`  
+- Software : KNIME Analytics Platform 5.8.0  
+- Tipe analisis : Preprocessing, Exploratory Analysis, Visualization  
 
 ---
 
-## 📈 Visualisasi yang dihasilkan
+## BAB III – Tahapan Workflow KNIME
 
-✔ Bar Chart — perbandingan nilai numerik antar sereal  
-✔ Pie Chart — proporsi kategori (misal rating atau brand)  
-✔ Scatter Plot — hubungan antar variabel nutrisi  
-✔ Histogram — distribusi nilai pada fitur numerik  
+### 3.1 Node 1 – CSV Reader  
+Membaca dataset sumber dengan format `.csv` dan memasukkannya ke workflow.
 
-Semua grafik digunakan untuk melihat pola, sebaran dan insight dari data.
+### 3.2 Node 2 – Column Auto Type Cast  
+Mengubah tipe data otomatis (string → integer/float jika memungkinkan) agar operasi statistik berjalan lancar.
+
+### 3.3 Node 3 – Column Filter  
+Menentukan kolom mana yang akan digunakan/diabaikan sesuai kebutuhan analisis.
+
+### 3.4 Node 4 – Missing Value  
+Menangani nilai kosong/missing dengan metode imputasi (mean/median) sehingga dataset menjadi bersih.
+
+### 3.5 Node 5 – Row Filter  
+Menyaring baris berdasarkan kondisi tertentu, misal memilih baris dengan nilai nutrisi tertentu atau menghapus baris yang tidak relevan.
+
+### 3.6 Node 6 – Normalizer  
+Menormalkan data numerik agar skala antar fitur seragam (0–1), membantu analisis dan visualisasi lebih objektif.
+
+### 3.7 Node 7 – Column Rename  
+Mengubah nama kolom agar lebih ringkas dan mudah digunakan pada proses berikutnya.
+
+### 3.8 Node 8 – Duplicate Row Filter  
+Menghilangkan data duplikat berdasarkan seluruh kolom sehingga mencegah bias pada analisis.
+
+### 3.9 Node 9 – Linear Correlation  
+Menghitung korelasi antar variabel numerik dan menghasilkan skor hubungan antar fitur nutrisi.
+
+### 3.10 Node 10 – GroupBy  
+Melakukan agregasi data (mean, sum, count) untuk melihat ringkasan nutrisi dan statistik per kategori sereal.
+
+### 3.11 Node 11 – Bar Chart  
+Menampilkan grafik batang untuk membandingkan nilai nutrisi antar produk sereal.
+
+### 3.12 Node 12 – Pie Chart  
+Visualisasi proporsi kategori untuk melihat kontribusi tiap kelompok (misal rating atau brand tertentu).
+
+### 3.13 Node 13 – Scatter Plot  
+Menganalisis hubungan antar variabel, misalnya Kalori vs Gula untuk mengetahui pola kesehatan sereal.
+
+### 3.14 Node 14 – Histogram  
+Menampilkan distribusi nilai fitur numerik seperti sugar, calories, fat. Berguna untuk melihat penyebaran data.
+
+### 3.15 Node 15 – Data/Report Output  
+Output akhir berupa tabel atau laporan visual untuk dokumentasi dan interpretasi hasil.
 
 ---
 
-## 🔍 Insight & Interpretasi
+## BAB IV – Hasil dan Insight
 
-Berdasarkan hasil analisis:
+### 4.1 Temuan Analisis
+- Setelah cleaning, dataset bebas missing value dan duplikat.  
+- Normalisasi membuat fitur nutrisi lebih mudah dibandingkan.  
+- Korelasi menunjukkan hubungan signifikan antar nutrisi tertentu.  
+- Scatter plot mengindikasikan semakin besar gula ➜ semakin tinggi kalori.  
+- Histogram menunjukkan distribusi nutrisi tidak merata, beberapa sereal sangat tinggi gula.  
 
-- Tidak ditemukan missing value setelah dilakukan cleaning
-- Normalisasi membantu membuat skala nutrisi lebih seragam
-- Korelasi antar fitur membantu melihat hubungan seperti:
-  - Kandungan gula cenderung berbanding lurus dengan kalori
-  - Protein dan fiber berkontribusi pada sereal yang lebih sehat
-- Scatter plot menunjukkan pola pengelompokan berdasarkan gizi
-- Pie chart & bar chart membantu memahami distribusi nutrisi
-
----
-
-## 📌 Kesimpulan
-
-Workflow berhasil berjalan dengan baik dan menghasilkan insight berupa:
-
-- Komposisi nutrisi antar sereal cukup bervariasi
-- Fitur nutrisi tertentu saling berkaitan dan dapat dianalisis lebih lanjut
-- Visualisasi membantu memahami data sebelum modeling
-
-Workflow dapat dikembangkan lebih jauh dengan:
-
-📍 Clustering (K-Means)  
-📍 Classification (Decision Tree / Random Forest)  
-📍 Feature Engineering lanjut  
+### 4.2 Interpretasi  
+Sereal dengan nutrisi seimbang (protein & fiber tinggi, gula rendah) lebih sehat. Sedangkan sereal dengan kandungan gula tinggi dapat memiliki kalori lebih besar. Informasi ini penting untuk rekomendasi nutrisi.
 
 ---
 
-## 📎 Cara Menjalankan
+## BAB V – Kesimpulan
+Workflow KNIME berhasil menerapkan rangkaian preprocessing dan visualisasi. Data dapat dianalisis secara eksploratif untuk menemukan pola nutrisi antar sereal.  
+Project dapat dikembangkan dengan metode lanjutan seperti:
 
-1. Buka **KNIME 5.8.0**
-2. Import workflow
-3. Jalankan node satu per satu atau klik **Execute All**
-4. Buka view pada node visualisasi untuk melihat grafik
+- Clustering sereal berdasarkan komposisi gizi  
+- Klasifikasi sereal sehat & tidak sehat  
+- Recommendation system untuk pilihan sarapan  
+
 
