@@ -98,6 +98,7 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 ![Correlation](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/correlation.png)
 
 ### 📊 Histogram Distribusi Nutrisi
+
 ![Histogram](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/histogram.png)
 
 ### 📈 Scatter Plot (Calories vs Sugar)
