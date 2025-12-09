@@ -82,14 +82,11 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 
 ## **6. Dokumentasi Workflow & Output Visualisasi**
 
-> Pastikan file screenshot sesuai nama di repo kamu.  
-> Jika beda, tinggal ubah nama file setelah `blob/main/`.
-
 ### 📂 Workflow KNIME
 ![Workflow](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/workflow.png)
 
 ### 📄 CSV Reader & Data Preview
-![CSV Reader]([https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/csv_reader.png](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/Screenshot%202025-12-09%20074019.png))
+![CSV Reader]([https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/csv_reader.png](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/Screenshot%202025-12-09%20074019.png))
 
 ### 🔧 Missing Value & Cleaning
 ![Missing](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/missing_value.png)
@@ -98,7 +95,6 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 ![Correlation](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/correlation.png)
 
 ### 📊 Histogram Distribusi Nutrisi
-
 ![Histogram](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/histogram.png)
 
 ### 📈 Scatter Plot (Calories vs Sugar)
