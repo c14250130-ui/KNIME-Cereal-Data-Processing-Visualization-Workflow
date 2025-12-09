@@ -109,16 +109,4 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 ### 📊 Bar Chart
 ![Bar Chart](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/barchart.png)
 
----
 
-## **7. Link Repository**
-
-🔗 GitHub Repo:  
-https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow
-
----
-
-## **8. Author**
-
-**Nama:** *(isi namamu)*  
-**Projek:** KNIME Data Visualization – Cereal Dataset  
