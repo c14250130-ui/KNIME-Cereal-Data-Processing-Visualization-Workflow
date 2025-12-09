@@ -89,7 +89,7 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 ![CSV Reader](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074019.png)
 
 ### 🔧 Missing Value & Cleaning
-![Missing](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/missing_value.png)
+![Missing Value](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074105.png)
 
 ### 🔍 Correlation Matrix
 ![Correlation](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/correlation.png)
