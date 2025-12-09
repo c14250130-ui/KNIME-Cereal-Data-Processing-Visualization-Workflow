@@ -98,10 +98,10 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 ![Histogram](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074443.png)
 
 ### 📈 Scatter Plot (Calories vs Sugar)
-![Scatter](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/scatter.png)
+![Scatter Plot](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074433.png)
 
 ### 🧩 Pie Chart
-![Pie Chart](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/piechart.png)
+![Pie Chart](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074422.png)
 
 ### 📊 Bar Chart
 ![Bar Chart](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/barchart.png)
