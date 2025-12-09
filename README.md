@@ -83,7 +83,7 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 ## **6. Dokumentasi Workflow & Output Visualisasi**
 
 ### 📂 Workflow KNIME
-![Workflow](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/workflow.png)
+![Workflow](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20201606.png)
 
 ### 📄 CSV Reader & Data Preview
 ![CSV Reader](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074019.png)
