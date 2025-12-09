@@ -89,7 +89,7 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 ![Workflow](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/workflow.png)
 
 ### 📄 CSV Reader & Data Preview
-![CSV Reader](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/csv_reader.png)
+![CSV Reader]([https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/csv_reader.png](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/Screenshot%202025-12-09%20074019.png))
 
 ### 🔧 Missing Value & Cleaning
 ![Missing](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/missing_value.png)
