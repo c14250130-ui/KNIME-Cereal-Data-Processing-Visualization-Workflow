@@ -94,8 +94,8 @@ Proyek ini menunjukkan bahwa KNIME merupakan tools yang efektif untuk data clean
 ### 🔎 Correlation Matrix  
 ![Correlation Matrix](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074350.png)
 
-### 📊 Histogram Distribusi Nutrisi
-![Histogram](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074253.png)
+### 📊 Histogram Distribusi Nutrisi 
+![Histogram](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-09%20074443.png)
 
 ### 📈 Scatter Plot (Calories vs Sugar)
 ![Scatter](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/scatter.png)
