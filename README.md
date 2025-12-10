@@ -47,7 +47,7 @@ Visualisasi dibuat untuk memahami hubungan nutrisi antar produk sereal, distribu
 Melihat hubungan antar kolom numerik.  
 Semakin kuat warna, semakin tinggi nilai korelasinya.
 
-![Heatmap](link-gambar-heatmap)
+![Heatmap]([link-gambar-heatmap](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/Screenshot%202025-12-10%20133437.png))
 
 ---
 
