@@ -7,7 +7,7 @@ Visualisasi dibuat untuk memahami hubungan nutrisi antar produk sereal, distribu
 
 ## 🔁 Workflow Overview
 
-![Workflow](link-gambar-workflow)
+![Workflow]([link-gambar-workflow](https://github.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/blob/main/sereal.knwf))
 
 ### Node Flow
 
