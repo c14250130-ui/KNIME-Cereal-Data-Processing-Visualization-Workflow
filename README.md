@@ -54,7 +54,7 @@ Semakin kuat warna, semakin tinggi nilai korelasinya.
 ### ✴ Scatter Plot
 Untuk melihat hubungan dua variabel, misalnya sugar vs rating.
 
-![Scatter](link-gambar-scatter)
+![Scatter Plot](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-10%20133457.png)
 
 ---
 
