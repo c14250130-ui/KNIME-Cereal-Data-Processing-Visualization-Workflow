@@ -61,7 +61,7 @@ Untuk melihat hubungan dua variabel, misalnya sugar vs rating.
 ### 📈 Histogram
 Menampilkan distribusi nilai (contoh: sugar, calories, rating).
 
-![Histogram](link-gambar-histogram)
+![Histogram](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-10%20133510.png)
 
 ---
 
