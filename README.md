@@ -75,14 +75,14 @@ Menunjukkan persebaran data dan outlier.
 ### 📊 Bar Chart (GroupBy)
 Menampilkan nilai rata-rata nutrisi berdasarkan kategori (manufacturer/type).
 
-![Bar Chart](link-gambar-barchart)
+![Bar Chart](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-10%20133549.png)
 
 ---
 
 ### 🥧 Pie Chart
 Menunjukkan proporsi kategori — contoh distribusi tipe cereal.
 
-![Pie Chart](link-gambar-piechart)
+![Pie Chart](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-10%20133636.png)
 
 ---
 
