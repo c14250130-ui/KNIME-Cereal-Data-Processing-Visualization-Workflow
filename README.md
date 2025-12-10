@@ -68,7 +68,7 @@ Menampilkan distribusi nilai (contoh: sugar, calories, rating).
 ### 📦 Box Plot
 Menunjukkan persebaran data dan outlier.
 
-![Boxplot](link-gambar-boxplot)
+![Box Plot](https://raw.githubusercontent.com/c14250130-ui/KNIME-Cereal-Data-Processing-Visualization-Workflow/main/Screenshot%202025-12-10%20133531.png)
 
 ---
 
